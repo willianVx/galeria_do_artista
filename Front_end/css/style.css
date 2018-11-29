@@ -1,0 +1,351 @@
+.gda_container{
+    display: flex;
+    width: 1446px;
+    position: relative;
+    top: 15px;
+}
+.gda_perfil{
+    width:300px;
+    height:1066px;
+    border:1px solid;
+    margin-right: 30px;
+    padding: 60px;
+    background-color: #f6f6f6;
+    border: solid 0.5px #dcdcdc;
+}
+.gda_perfil div{
+    margin-top: 60px;
+}
+.gda_perfil span{
+    font-size: 30px;
+}
+.gda_perfil div p{
+    color: #7c7c7c;
+    margin-top: 30px;
+}
+.gda_galeria{
+    width: 983px; 
+    height: 1066px;
+    border:1px solid #dcdcdc;
+}
+.gda_galeria img{
+    cursor: pointer;
+}
+.gda_perfil img{
+    border-radius: 50%;
+}
+.gda_obras_qtd{
+    text-align: center;
+    background-color: #3ab54a;
+    color: white!important;
+    padding: 5px;
+    border-radius: 12px;
+}
+.gda_social{
+    display: flex;
+}
+.gda_social img{
+    border-radius: 0px;
+    margin: 5px;
+    cursor: pointer;
+}
+@media(max-width: 1573px){
+    .gda_container{
+        width: 1100px;
+    }
+}
+@media(max-width: 1150px){
+    .gda_container{
+        width: 950px;
+    }
+}
+@media(max-width: 1130px){
+    .gda_container{
+        width: 710px;
+    }
+    .gda_social{
+        display: none;
+    }
+}
+@media(max-width: 780px){
+    .gda_container{
+        display: block;
+        width: 600px;
+    }
+    .gda_perfil{
+        width: 733px;
+        height: 280px;
+        padding: 20px;
+        display: flex;
+    }
+    .gda_perfil div{
+        margin-left: 40px;
+        margin-top: -10px;
+    }
+    .gda_perfil img{
+        width: 150px;
+        height: 150px;
+    }
+    .gda_perfil div p{
+        margin-top: 10px;
+    }
+    .gda_galeria{
+        width: 733px;
+        margin-top: 30px;
+    }
+    .gda_img_local{
+        width: 20px!important;
+        height: 20px!important;
+    }
+}
+@media(max-width: 760px){
+    .gda_perfil{
+        width: 720px;
+    }
+    .gda_galeria{
+        width: 720px;
+        height: 5900px;
+    }
+}
+@media(max-width: 750px){
+    .gda_perfil{
+        max-width: 118%;
+    }
+    .gda_galeria{
+        width: 118%;
+    }
+    .gda_obras_qtd{
+        padding: 0;
+        width: 50%;
+    }
+}
+@media(max-width: 730px){
+    .gda_perfil{
+        max-width: 107%;
+    }
+    .gda_galeria{
+        width: 107%;
+    }
+}
+@media(max-width: 425px){
+    .gda_perfil{
+        max-width: 64%;
+    }
+    .gda_galeria{
+        width: 64%;
+        height: 3500px!important;
+    }
+    .gda_perfil div{
+        margin-left: 40px;
+        font-size: 19px;
+    }
+    .gda_perfil div p{
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .gda_obras_qtd{
+        padding: 0;
+        width: 90%;
+    }
+    .img_descricao {
+        width: 34%;
+    }
+}
+@media(max-width: 375px){
+    .gda_perfil{
+        max-width: 56%;
+    }
+    .gda_galeria{
+        width: 56%;
+    }
+    .gda_perfil div{
+        font-size: 16px;
+    }
+    .gda_perfil div p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+}
+@media(max-width:320px){
+    .gda_perfil{
+        max-width: 48%;
+    }
+    .gda_galeria{
+        width: 58%;
+    }
+    .gda_perfil div{
+        font-size: 15px;
+    }
+    .gda_perfil div p{
+        font-size: 7px;
+        line-height: 11px;
+    }
+    .gda_perfil img{
+        width: 127px;
+        height: 127px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 33%;
+    max-width: 34%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .gda_galeria{
+        height: 5900px;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .container_gda {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    padding: 0;
+
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    transition: .5s ease;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#66000000',GradientType=0 );
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 70%;
+    border-radius: 0!important;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 300px;
+}
+.img_descricao{
+    text-align: start;
+    width: 50%;
+}
+#caption h2{
+    color: white;
+    font-size: 20px;
+}
+.img_data{
+    float: right;
+}
+.box_preco{
+    text-align: end;
+    width: 50%;
+    padding-top: 17%;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

@@ -1,0 +1,37 @@
+.gda_galeria{
+    height: 2000px;
+}
+@media(max-width:1573px){
+    .gda_galeria{
+        height: 1655px;
+    }
+}
+@media(max-width:1150px){
+    .gda_galeria{
+        height: 1440px;
+    }
+}
+@media(max-width:1130px){
+    .gda_galeria{
+        height: 1140px;
+    }
+}
+@media(max-width:800px){
+    .gda_galeria{
+        height: 7500px;
+    }
+}
+@media(max-width:780px){
+    .gda_galeria{
+        height: 11500px;
+    }
+}
+@media(max-width:425px){
+    .gda_galeria{
+        height: 6200px!important;
+    }
+    .gda_perfil div p {
+        font-size: 10px!important;
+        line-height: 11px!important;
+    }
+}
