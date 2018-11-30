@@ -26,7 +26,7 @@ jQuery(document).ready(function($){
 
         //direciona para quadro personalizado
         $("#botao_usar_imagem_modal").click(function(){
-            window.location.assign("https://instaarts.com/product/quadro-personalizado-instaartscd/?img="+img);
+            window.location.assign("https://instaarts.com/product/quadro-personalizado-instaarts/?img="+img);
         });
 
         // When the user clicks on <span> (x), close the modal
