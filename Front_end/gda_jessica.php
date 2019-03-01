@@ -1,6 +1,4 @@
-<?php
-    function galeria_jessica(){
-        ?>
+<?php get_header();  ?>
         <div class="gda_container container">
             <div class="gda_perfil col-lg-4">
                 <img class="gda_perfil_img" src="https://instaarts.com/wp-content/uploads/2018/11/jessica_enya.jpg" alt="">
@@ -154,26 +152,24 @@
         <!-- The Modal -->
         <div id="myModal" class="modal">
 
-        <!-- The Close Button -->
-        <span class="close">&times;</span>
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
 
-        <!-- Modal Content (The Image) -->
-        <img class="modal-content" id="img01">
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
 
-        <!-- Modal Caption (Image Text) -->
-        <div id="caption">
-            <div class="img_descricao">
-                <h2>Titulo da imagem - Formatos 10x13cm até 80x95cm</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat blandit leo nec malesuada. Sed.</p>
-                <p>Cotia - SP<span class="img_data"> 11/07/2018</span></p>
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption">
+                <div class="img_descricao">
+                    <h2>Titulo da imagem - Formatos 10x13cm até 80x95cm</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat blandit leo nec malesuada. Sed.</p>
+                    <p>Cotia - SP<span class="img_data"> 11/07/2018</span></p>
+                </div>
+                <div class="box_preco">
+                    <div>A partir de R$ 90,60</div>
+                    <div id="botao_usar_imagem_modal" class="btn btn-success">Fazer quadro com a imagem</div>
+                </div>
             </div>
-            <div class="box_preco">
-                <div>A partir de R$ 90,60</div>
-                <div id="botao_usar_imagem_modal" class="btn btn-success">Fazer quadro com a imagem</div>
-            </div>
+
         </div>
-        </div>
-    <?php
-    }
-   
-?>
+<?php get_footer(); ?> 
